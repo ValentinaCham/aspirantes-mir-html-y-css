@@ -1,0 +1,62 @@
+.container {
+    width: 100%%;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    padding: 20px;
+    border-radius: 20px;          
+}
+
+form {
+    color: #fff;
+}
+
+h2 {
+    text-align: rigth;
+}
+
+.form-group {
+      margin-bottom: 10px;     
+}
+
+label {
+    padding-top: 2px;
+    display: block;
+    margin-bottom: 5px;      
+}
+
+.term {
+    padding-top: 4px;
+    display: inline;      
+}
+
+input, select{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 7px;
+    width: 100%;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.but {
+    padding: 5px 15px;
+    text-align: right;
+}
+
+@media(min-width: 500px) {
+    .container {
+        width: 300px;          
+    }
+}
+
+
+
+
+
+
+
+
